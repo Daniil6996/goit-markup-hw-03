@@ -136,6 +136,7 @@ span {
 .section-hero {
   background-color: #2f303a;
   height: 600px;
+  padding-top: 200px;
 }
 .hero {
   text-align: center;
@@ -151,7 +152,6 @@ span {
   color: #ffffff;
   left: 0px;
   top: 80px;
-  padding-top: 200px;
   margin-bottom: 30px;
 }
 
@@ -230,6 +230,7 @@ span {
   font-size: 36px;
   line-height: 1.16;
   color: #212121;
+  text-align: center;
 }
 
 /* EMPLOYEES ----------------------------*/
@@ -276,9 +277,10 @@ span {
 /* END EMPLOYEES ---------------------------*/
 
 /* FOOTER */
-.footer-section {
+.footer {
   background-color: #2f303a;
-  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -287,10 +289,12 @@ span {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .geolocation {
   margin-bottom: 9px;
+  margin-top: 20px;
 }
 
 .footer-link-mailto {
@@ -326,6 +330,10 @@ span {
   display: none;
 }
 
+.gallery {
+  padding-top: 94px;
+}
+
 .header-border {
   border: 1px solid #ececec;
 }
@@ -339,6 +347,9 @@ span {
   letter-spacing: 0.03em;
   background: #f5f4fa;
   cursor: pointer;
+  border: 0px;
+  padding: 6px 22px;
+  /* margin-bottom: 50px; */
 }
 
 .main-button-list:not(:last-child) {
@@ -352,7 +363,6 @@ span {
 
 .button-list {
   display: flex;
-  padding-top: 94px;
   justify-content: center;
 }
 
@@ -372,13 +382,15 @@ span {
 .portfolio-content-wrapper {
   background-color: #fff;
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -60px;
-  margin-top: 50px;
+  margin-left: -30px;
+  margin-top: -30px;
   margin-bottom: 94px;
 }
 
@@ -386,6 +398,8 @@ span {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
+}
+.photo-cards {
+  margin-top: 50px;
 }
